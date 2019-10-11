@@ -1,0 +1,14 @@
+{
+  "name": "below_amatuer_gamer",
+  "version": "1.0.0",
+  "description": "Gaming Blog",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/"
+  },
+  "author": "jSoliz",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

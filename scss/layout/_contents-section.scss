@@ -1,0 +1,140 @@
+.contents-container{
+  overflow: hidden;
+
+  .blog-post {
+    position: relative;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  
+  .meta {
+
+    margin-bottom: 1.3rem;
+
+    span, a {
+      color: #808080;
+    }
+
+    :not(:last-child)::after{
+      content: '/';
+      padding-left: 5px;
+    }
+  }
+
+  .primary-post {
+
+    margin-bottom: 12rem;
+    
+    & header img {
+      width: 100%;
+      height: 43rem;
+      object-fit: cover;
+      margin-bottom: 2.3rem;
+    }
+
+    &-title{
+      padding: 0 8.5rem;
+      margin-bottom: 1.1rem;
+      line-height: 1.4;
+    }
+  }
+  
+  .secondary-post { 
+    margin-bottom: 2rem;
+
+    & header img {
+      width: 100%;
+      height: 25rem;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    
+    &-title{
+      padding: 0 4.5rem;
+      margin-bottom: .7rem;
+    }
+  }
+
+  .blog-tabs {
+    margin-bottom: 3.5rem;
+    text-align: center;
+    
+    a {
+      display: inline-block;
+      width: 50%;
+      float: left;
+      padding: 1.7rem 0;
+      border: 1px solid #eee;
+
+      &:last-child {
+        border-left: none;
+      }
+
+      &:hover {
+        background: #333;
+        border-color: #333;
+      }
+    }
+  }
+
+  .tab-contents .active {
+    display: block;
+  }
+  
+ 
+  .contents-inner {
+    margin: 0 -1.5rem;
+    margin-bottom: 3rem;
+
+    article {
+      height: 45rem;
+    }
+  }
+
+  .primary-post-title-small {
+    padding: 0 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .blog-grid-small {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .meta {
+    span, a {
+      color: #808080;
+    }
+
+    :not(:last-child)::after{
+      content: '/';
+      padding-left: 0px;
+    }
+  }
+
+  .blog-post-text{
+    margin-bottom: 2.6rem;
+  }
+
+  .load-posts-wrapper {
+    display: block;
+    width: 100%;
+    margin-bottom: 5.5rem;
+
+    .load-posts-button {
+      display: block;
+      width: 100%;
+      padding: 1.8rem;
+      border: 1px solid #777;
+      text-align: center;
+      color: #a67c52;
+
+      &:hover {
+        background: #333;
+        border-color: #333;
+        color: #fff;
+      }
+    }
+  }
+}

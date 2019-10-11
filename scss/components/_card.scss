@@ -1,0 +1,33 @@
+.card {
+  height: 70rem;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+
+  &-img {
+    background-size: cover;
+    height: 45rem;
+    background-image: url(/dist/img/ps4_controller.jpg);
+    margin-bottom: 2.3rem;
+
+    &-1 {
+      background-image: url(/dist/img/ps4_controller.jpg);
+    }
+
+    &-2 {
+      background-image: url(/dist/img/mega_burger.jpg);
+    }
+  }
+
+  &-details {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+
+    li {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+  }
+}

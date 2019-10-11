@@ -1,0 +1,51 @@
+.main-nav{
+  margin-bottom: 4.2rem;
+  text-align: center;
+
+  .logo-wrapper{
+    padding: 4.5rem 0;
+  }
+
+  &-items {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    & li {
+      display: inline-block;
+      margin-right: 3rem;
+      padding: .8rem 0;
+      text-transform: uppercase;
+      position: relative;
+
+      &.has-children > a::after {
+        content: '\f078';
+        font: normal normal normal 1.3rem/1 FontAwesome;
+        padding-left: .3rem;
+      }
+
+      & a i {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 1px;
+      height: 1.7rem;
+      background: #858585;
+    }
+  }
+
+  & .social-icons {
+    display: inline-block;
+    margin-left: 1rem;
+
+    & li {
+      display: inline-block;
+      margin: 0 .6rem;
+    }
+  }
+}

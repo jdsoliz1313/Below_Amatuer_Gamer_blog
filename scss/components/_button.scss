@@ -1,0 +1,15 @@
+
+.badge-wrapper{
+  margin-bottom: 1rem;
+
+  .badge {
+    display: inline-block;
+    padding: 6px 12px 5px;
+    border: 1px solid #777;
+    text-transform: uppercase;
+
+    &:hover {
+      background: #a67c52;
+    }
+  }
+}

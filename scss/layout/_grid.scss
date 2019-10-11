@@ -1,0 +1,40 @@
+.row::before,
+.container::before,
+.row::after,
+.container::after {
+  content: "";
+  display: table;
+}
+
+.row {
+  margin: 0 -1.5rem;
+
+  .col-md-12{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .col-md-8 {
+    position: relative;
+    padding: 0 1.5rem;
+    float: left;
+    width: 66.666667%;
+  }
+
+  .col-md-6 {
+    position: relative;
+    width: 50%;
+    float: left;
+    padding: 0 1.5rem;
+  }
+
+
+  .col-md-4 {
+    position: relative;
+    padding: 0 1.5rem;
+    float: left;
+    width: 33.333333%;
+  }
+}
